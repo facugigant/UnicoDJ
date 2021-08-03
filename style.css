@@ -1,0 +1,181 @@
+*{margin: 0%;
+padding: 0;}
+
+footer{
+    margin-top: 60px;
+}
+
+/* navbar toggler */
+.navbar-toggler{
+  background: white;
+  margin-right: 50px;
+
+}
+.collapse{
+    text-align: center;
+}
+
+.nav-link:hover{
+
+color: red !important;
+}
+
+/* Container reproductor */
+
+.containerReproductor{
+margin-left: 12%;
+margin-top: 5%;
+}
+#imgnav{
+    border-radius:150px;
+
+}
+.navbar{
+    
+    background: black !important;
+
+}
+.nav-menu{
+font-size: 20px;
+   margin-left: 20vw;
+    color: white !important;
+    background: black !important;
+ 
+}
+
+#jorgeunico:hover{
+color: red !important;
+
+}
+/* --- --- CAROUSEL --- --- */
+.footer{
+color: white;
+background: black;
+
+}
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 10px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 0px;
+	text-align: center;
+	background: none;
+	color: #fff;
+	opacity: 20%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -30px;
+}
+
+.carousel__siguiente {
+	right: -30px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+	opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		padding: 40px 0;
+	}
+
+	.contenido-principal {
+		flex-direction: column;
+	}
+
+	.contenido-principal > * {
+		width: 100%;
+	}
+}
+
+/* Barra social*/
+html {
+	font-size: 16px;
+}
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
